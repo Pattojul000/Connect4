@@ -107,7 +107,6 @@ public class GameBoard {
             else{
                 spacesText[locationToPlace] = ".Y";
             }
-
         }
     }
 

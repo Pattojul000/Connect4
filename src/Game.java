@@ -25,7 +25,7 @@ public class Game {
 
                 if (this.gameBoard.spaces[location] == Space.RED || this.gameBoard.spaces[location] == Space.YELLOW || this.gameBoard.spaces[location] == Space.UNDEFINED) {
 
-                    System.out.println("You cannot place in an already marked or undefined zone, please try again.");
+                    System.out.println("You cannot place that in an already marked or undefined zone, try again.");
 
                     System.out.println("Player 1 (.R):  Enter a location number.");
                     location = myScan.nextInt();
